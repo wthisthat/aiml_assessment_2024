@@ -6,7 +6,7 @@ from ultralytics import YOLO
 
 # Load YOLOv8 model (you can choose any pre-trained model)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = YOLO('yolov8s_custom.pt')  # using the smallest YOLOv8 model
+model = YOLO('traffic_analysis/yolov8s_custom.pt')  # using the smallest YOLOv8 model
 model.to(device)
 max_track_id = 0
 
