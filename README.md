@@ -27,6 +27,7 @@ In this repo, two distinct project app are stored in respective folder (refer ch
    
 ## Challenge 1: Traffic Analysis (folder `traffic analysis`)
 Sample videos for inference: https://drive.google.com/drive/folders/1Lk2DWxpQ6Pf2nNzRCJtWZ3Ig9BewALGS?usp=sharing
+
 To run in local environment, follow steps below to setup:
 1. Ensure the requirements.txt are installed, take note on the CPU/GPU compiled PyTorch libraries.
 2. Run the application (Ensure current terminal directory is at `aiml_assessment_2024/`)
